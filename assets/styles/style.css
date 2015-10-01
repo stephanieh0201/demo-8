@@ -1,0 +1,88 @@
+body {
+  width: 850px;
+  margin: auto;
+  background: #fff;
+  font-size: 15px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+/* heading 3 */
+h3 {
+  font-size: 1.75em;
+}
+/* heading 5 */
+h5 {
+  font-size: 1.25em;
+  margin: 10px 0 10px 0;
+}
+/* site header */
+header {
+  border-bottom: 1px solid #dedede;
+}
+/* site header paragraph */
+header p {
+  font-size: 1.25em;
+  font-style: italic;
+}
+/* site main content category */
+main {
+  overflow: auto;
+  padding: 15px 0 15px 0;
+}
+/* input field for note */
+.note-input input {
+  width: 40%;
+}
+/* add button for note */
+.note-input button {
+  padding: 2px;
+  margin-left: 5px;
+  border-radius: 0;
+  border: 1px solid #dedede;
+  cursor: pointer;
+}
+/* paragraph output */
+.note-output p:nth-child(3n+0) {
+  background-color: #FFF3FF;
+  border: 3px solid purple;
+  width: 60%;
+}
+/*  paragraph output */
+.note-output p:nth-child(3n+1) {
+  background-color: cyan;
+  border: 3px solid navy;
+  width: 60%;
+}
+/* paragraph output */
+.note-output p:nth-child(3n+2) {
+  background-color: yellow;
+  border: 3px solid green;
+  width: 60%;
+}
+/*delete one note button*/
+.note-output button {
+  padding: 0px;
+  margin-left: 0px;
+  border-radius: 0;
+  border: 1px solid red;
+  cursor: pointer;
+}
+/*delete all button*/
+.delete-all button {
+  padding: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
+  border-radius: 0;
+  border: 5px solid red;
+  background: #FFE0E0;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* site footer */
+footer {
+  margin-top: 5px;
+  border-top: 1px solid #dedede;
+}
+/* site footer paragraph */
+footer p {
+  font-size: 0.8em;
+}
